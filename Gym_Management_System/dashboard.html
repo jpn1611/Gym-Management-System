@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="styles\style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Admin Dashboard</h1>
+    <div>
+      <h2>Add Member</h2>
+      <form id="add-member-form">
+        <input type="text" id="member-name" placeholder="Member Name" required>
+        <input type="email" id="member-email" placeholder="Member Email" required>
+        <button type="submit">Add Member</button>
+
+      </form>
+    </div>
+    <div>
+      <h2>Members List</h2>
+      <ul id="members-list"></ul>
+    </div>
+  </div>
+  <script type="module" src="scripts\admin.js"></script>
+</body>
+</html>
